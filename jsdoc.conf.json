@@ -1,0 +1,31 @@
+{
+  "opts": {
+    "recurse": true,
+    "template": "%dirname%/jsdoc/template",
+    "package": "package.json"
+  },
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": []
+  },
+  "plugins": [
+    "node_modules/jsdoc/plugins/markdown",
+    "%dirname%/jsdoc/plugins/events"
+  ],
+  "markdown": {
+    "parser": "gfm"
+  },
+  "stability": {
+    "levels": ["deprecated","experimental","unstable","stable","frozen","locked"]
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "default": {
+      "outputSourceFiles": true
+    }
+  },
+  "jsVersion": 180
+}

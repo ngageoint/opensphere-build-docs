@@ -1,0 +1,8 @@
+{
+  "language": "ES6_STRICT",
+  "sources": [],
+  "typeFilters": [
+    "^goog(\\..*)?$",
+    "^libcomp$"
+  ]
+}

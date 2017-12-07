@@ -1,10 +1,21 @@
-# opensphere-build-docs
-
-12/6/2017
+# Source Generation for Dossier
 
 ## About
 
-OpenSphere was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with BIT Systems. The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache license.
+JSDoc API documentation utilties for Google Closure projects.
+
+A source file list for [js-dossier](https://github.com/jleyba/js-dossier) can be
+automatically generated from the `gcc-manifest` output by the Closure compiler.
+
+## Usage
+
+* Generate a `.build/gcc-manifest` file for your project.
+* `bits-docs-gen-config <input config> <output config>`
+* `java -jar dossier.jar -c <output config>`
+
+## OpenSphere
+
+[OpenSphere](https://github.com/ngageoint/opensphere) was developed at the National Geospatial-Intelligence Agency (NGA) in collaboration with BIT Systems. The government has "unlimited rights" and is releasing this software to increase the impact of government investments by providing developers with the opportunity to take things in new directions. The software use, modification, and distribution rights are stipulated within the Apache license.
 
 ## Pull Requests
 
