@@ -2,7 +2,7 @@
 
 ## About
 
-JSDoc API documentation utilties for Google Closure projects.
+JSDoc API documentation utilities for Google Closure projects.
 
 A source file list for [js-dossier](https://github.com/jleyba/js-dossier) can be
 automatically generated from the `gcc-manifest` output by the Closure compiler.
