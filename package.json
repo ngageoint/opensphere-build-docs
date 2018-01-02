@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Generates API documentation for Closure projects.",
   "bin": {
+    "os-docs": "./os-docs.js",
     "os-docs-gen-config": "./genconf.js"
   },
   "main": "genconf.js",
@@ -37,7 +38,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
+      "path": "cz-conventional-changelog"
     },
     "validate-commit-msg": {
       "helpMessage": "\nPlease fix your commit message (consider using 'npm i -g commitizen'). Well-formatted commit messages allow us to automate our changelog and npm releases.\n\nExamples:\n\"fix(copy-view): Fixed an error when resolving paths for view directories\"\n\"feat(gcc): Added support for defines\"\n\nIf you have installed commitizen, try running 'git cz'."

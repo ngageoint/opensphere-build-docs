@@ -84,6 +84,31 @@ const appendSourcesJsdoc = function(config) {
 };
 
 /**
+ * Resolves absolute paths for externs.
+ *
+ * @param {Object} config The JSDoc configuration object
+ */
+const resolveExterns = function(config) {
+  if (config.externs) {
+    config.externs = config.externs.map(function(externPath) {
+      var match = externPath.match(/(.*?)\/(.*)/);
+      if (match.length === 3) {
+        try {
+          var moduleName = match[1];
+          var modulePath = path.dirname(require.resolve(path.join(moduleName, 'package.json')));
+          if (modulePath) {
+            return path.join(modulePath, match[2]);
+          }
+        } catch (e) {
+        }
+      }
+
+      return externPath;
+    });
+  }
+};
+
+/**
  * Merges the base JSDoc configuration with the project configuration.
  * @param {string} inputPath Path to the project configuration
  * @return {Object} The merged configuration
@@ -134,6 +159,7 @@ const processJsdocConf = function() {
 
         // read sources from the manifest and add them to the config
         appendSourcesDossier(config);
+        resolveExterns(config);
       }
 
       // write the config to the output path
