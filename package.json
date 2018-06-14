@@ -88,7 +88,7 @@
     "eslint-config-google": "^0.6.0",
     "eslint-config-opensphere": "^1.0.0",
     "eslint-plugin-google-camelcase": "0.0.2",
-    "eslint-plugin-opensphere": "1.0.0",
+    "eslint-plugin-opensphere": "2.0.0",
     "husky": "^0.13.3",
     "semantic-release": "^11.2.0"
   }
