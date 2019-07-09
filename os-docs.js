@@ -18,7 +18,7 @@ if (process.argv.length < 3) {
   args = process.argv.slice(2);
 
   // check if verbose warning output is enabled
-  let verboseIndex = args.indexOf('--verbose');
+  const verboseIndex = args.indexOf('--verbose');
   if (verboseIndex > -1) {
     verbose = true;
 
@@ -29,7 +29,7 @@ if (process.argv.length < 3) {
 
 const compile = function(args) {
   return new Promise(function(resolve, reject) {
-    let javaArgs = ['-jar', dossierJarPath].concat(args);
+    const javaArgs = ['-jar', dossierJarPath].concat(args);
 
     const process = childProcess.spawn('java', javaArgs);
     process.stdout.on('data', function(data) {
