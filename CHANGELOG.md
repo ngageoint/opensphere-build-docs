@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ngageoint/opensphere-build-docs/compare/v1.2.0...v1.2.1) (2019-07-09)
+
+
+### Bug Fixes
+
+* Update opensphere linter config to 3.0.0 ([2b155de](https://github.com/ngageoint/opensphere-build-docs/commit/2b155de))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/ngageoint/opensphere-build-docs/compare/v1.1.0...v1.2.0) (2018-01-24)
 
