@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/ngageoint/opensphere-build-docs/compare/v1.2.1...v2.0.0) (2019-09-30)
+
+
+### Features
+
+* **dossier:** add direct dependency for js-dossier ([165d7cd](https://github.com/ngageoint/opensphere-build-docs/commit/165d7cd))
+
+
+### BREAKING CHANGES
+
+* **dossier:** This project now directly depends on js-dossier to resolve
+version issues related to hoisted dependencies. Other projects should remove
+their dependency on js-dossier and use the inherited version instead.
+
 ## [1.2.1](https://github.com/ngageoint/opensphere-build-docs/compare/v1.2.0...v1.2.1) (2019-07-09)
 
 
