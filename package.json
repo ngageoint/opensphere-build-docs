@@ -19,7 +19,6 @@
     "build",
     "closure",
     "compiler",
-    "jsdoc",
     "api"
   ],
   "license": "Apache-2.0",
@@ -54,7 +53,7 @@
   "dependencies": {
     "deepmerge": "^1.1.1",
     "fs": "0.0.1-security",
-    "jsdoc": "^3.4.2",
+    "js-dossier": "^0.15.0",
     "opensphere-build-closure-helper": "^3.0.1",
     "path": "^0.12.7"
   },
