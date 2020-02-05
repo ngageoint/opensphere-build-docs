@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/ngageoint/opensphere-build-docs/compare/v2.0.0...v2.0.1) (2020-02-05)
+
+
+### Bug Fixes
+
+* **gcc:** update closure deps ([6a62557](https://github.com/ngageoint/opensphere-build-docs/commit/6a6255746523c9a94a608a4dcb5e74ce94c8945e))
+
 # [2.0.0](https://github.com/ngageoint/opensphere-build-docs/compare/v1.2.1...v2.0.0) (2019-09-30)
 
 
