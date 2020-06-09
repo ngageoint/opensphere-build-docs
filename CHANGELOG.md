@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/ngageoint/opensphere-build-docs/compare/v2.0.1...v2.0.2) (2020-06-09)
+
+
+### Bug Fixes
+
+* **update:** use latest, 3.5.1 version of query ([fa94013](https://github.com/ngageoint/opensphere-build-docs/commit/fa9401374c97999c78ebb21731aa3999e8001fa1))
+
 ## [2.0.1](https://github.com/ngageoint/opensphere-build-docs/compare/v2.0.0...v2.0.1) (2020-02-05)
 
 
