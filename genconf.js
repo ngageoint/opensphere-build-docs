@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-/* eslint no-use-before-define: "off" */
-
 'use strict';
 
 const fs = require('fs');
